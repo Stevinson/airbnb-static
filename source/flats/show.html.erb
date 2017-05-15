@@ -1,0 +1,9 @@
+<% flat = data.flats[person_name] %>
+<div class="text-center padded">
+  <%= image_tag flat.picture, class: "img-circle avatar-xlarge" %>
+  <div class="padded">
+    <p><%= flat.owner_name %></p>
+    <h1><%= flat.description %></h1>
+    <p><%= flat.city %></p>
+  </div>
+</div>

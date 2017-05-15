@@ -1,0 +1,16 @@
+edward:
+  owner_name: Edward Stevinson
+  picture: "images/edward.jpeg"
+  owner_picture: "images/card-london.jpeg"
+  name: Ed's home
+  summary: 2-bedroom Victorian flat
+  city: London, UK
+  wifi: true
+michael:
+  owner_name: Michael X
+  picture: "images/michael.jpeg"
+  owner_picture: "images/card-paris.jpg"
+  name: Michaels's home
+  summary: Nice flat in Paris
+  city: Paris, France
+  wifi: false
