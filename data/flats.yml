@@ -6,6 +6,7 @@ edward:
   summary: 2-bedroom Victorian flat
   city: London, UK
   wifi: true
+  details: A spacious flat in the heart of town, with access to plenty of local amenities.
 michael:
   owner_name: Michael X
   picture: "images/michael.jpeg"
@@ -14,3 +15,4 @@ michael:
   summary: Nice flat in Paris
   city: Paris, France
   wifi: false
+  details: In a leafy suburb of Paris, with three parks on the doorstep.

@@ -1,0 +1,31 @@
+.header-flat {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.padded-sm {
+  padding: 25px 15px;
+}
+
+.flat-description {
+  background-color: $light-grey;
+  border: 1px solid $grey-border;
+  h2 {
+    padding-bottom: 30px;
+  }
+}
+
+.book-form {
+  background-color: $light-grey;
+  border-radius: 4px;
+  border: 1px solid $grey-border;
+}
+
+.img-flat {
+  height: 300px;
+}
+.header-flat {
+  background-color: white;
+}
+

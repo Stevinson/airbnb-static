@@ -1,9 +1,47 @@
 <% flat = data.flats[person_name] %>
-<div class="text-center padded">
-  <%= image_tag flat.picture, class: "img-circle avatar-xlarge" %>
-  <div class="padded">
-    <p><%= flat.owner_name %></p>
-    <h1><%= flat.description %></h1>
-    <p><%= flat.city %></p>
+<div class="banner img-flat" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(../<%= flat.owner_picture %>);">
+</div>
+<div class="header-flat">
+  <div class="text-center padded-sm">
+    <%= image_tag flat.picture, class: "img-circle avatar-xlarge" %>
+    <div class="padded-sm">
+      <p><%= flat.owner_name %></p>
+      <h1><%= flat.description %></h1>
+      <p><%= flat.city %></p>
+      <!-- <p>'../<%= flat.owner_picture %>'</p> -->
+    </div>
+  </div>
+  <div class="padded-sm book-form">
+    <form action="#" >
+      <h3>Book this flat</h3>
+      <div class="form-group">
+        <div class="row">
+          <div class="col-xs-6">
+            <input type="text" class="form-control" placeholder="checkin" id="checkin">
+          </div>
+          <div class="col-xs-6">
+            <input type="text" class="form-control" placeholder="checkout">
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <select name="" id="guests" class="form-control">
+          <option value="1">1 guest</option>
+          <option value="2">2 guests</option>
+          <option value="3">3 guests</option>
+        </select>
+      </div>
+      <input type="submit" class="btn btn-danger" value="Book it" style="width: 100%">
+    </form>
+  </div>
+</div>
+<div class="flat-description padded text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+        <h2>About this flat</h2>
+        <p><%= flat.details %></p>
+      </div>
+    </div>
   </div>
 </div>
